@@ -1,0 +1,21 @@
+Order_ID,Customer_Name,Product_Name,Units_Sold,Unit_Price,Sale_Date,Region,Total_Revenue
+ORD-0001,John Smith,AI Home Assistant,2,500,2025-01-01,North America,1000
+ORD-0002,Jane Doe,Autonomous Vacuum,5,300,2025-01-02,Europe,1500
+ORD-0003,Alice Johnson,AI Companion Robot,1,1000,2025-01-03,Asia,1000
+ORD-0004,Bob Lee,Industrial Robotic Arm,3,1500,2025-01-04,North America,4500
+ORD-0005,Chris Evans,Delivery Drone,10,200,2025-01-05,Europe,2000
+ORD-0006,Diana Prince,AI Home Assistant,4,500,2025-01-06,Asia,2000
+ORD-0007,Eve Torres,Autonomous Vacuum,6,300,2025-01-07,North America,1800
+ORD-0008,Frank Castle,AI Companion Robot,2,1000,2025-01-08,Europe,2000
+ORD-0009,Grace Hopper,Industrial Robotic Arm,7,1500,2025-01-09,Asia,10500
+ORD-0010,Hank Pym,Delivery Drone,8,200,2025-01-10,North America,1600
+ORD-0011,Ivy Parker,AI Home Assistant,5,500,2025-01-11,Europe,2500
+ORD-0012,Jack Sparrow,Autonomous Vacuum,3,300,2025-01-12,Asia,900
+ORD-0013,Karen Page,AI Companion Robot,2,1000,2025-01-13,North America,2000
+ORD-0014,Lara Croft,Industrial Robotic Arm,6,1500,2025-01-14,Europe,9000
+ORD-0015,Michael Knight,Delivery Drone,9,200,2025-01-15,Asia,1800
+ORD-0016,Nancy Drew,AI Home Assistant,1,500,2025-01-16,North America,500
+ORD-0017,Oscar Isaac,Autonomous Vacuum,4,300,2025-01-17,Europe,1200
+ORD-0018,Paula Abdul,AI Companion Robot,3,1000,2025-01-18,Asia,3000
+ORD-0019,Quentin Blake,Industrial Robotic Arm,7,1500,2025-01-19,North America,10500
+ORD-0020,Rose Tyler,Delivery Drone,8,200,2025-01-20,Europe,1600
