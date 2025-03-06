@@ -4,8 +4,6 @@ Here’s a full tutorial in Markdown for getting started with the Slack API to c
 
 ⸻
 
-🚀 Tutorial: Creating Slack Agents with Slack API and LangChain
-
 This guide walks you through setting up a Slack App for building an intelligent agent using LangChain, including scopes, tokens, and event handling.
 
 ⸻
