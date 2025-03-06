@@ -1,0 +1,58 @@
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+pip-log.txt
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+*.cover
+
+# Student submission folders (if applicable)
+submissions/
+grades/
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+
+# Office temporary files
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+*.~*
+
+# Course specific (you might want to keep these in version control)
+# !assignments/
+# !solutions/
+# !lectures/
