@@ -1,0 +1,37 @@
+display_information:
+  name: Slack Agent Test
+  description: Simple OpenAI Assistant that integrates with slack
+  background_color: "#1e1f24"
+  long_description: Simple OpenAI Assistant that integrates with slackMeet OpenAI Bot, your Slack-integrated AI assistant! Seamlessly connect and streamline communication within your team. From automating tasks to providing insights on-the-fly, this smart helper boosts productivity and enhances collaboration effortlessly. Engage in natural conversations, get instant answers, or manage workflows—all from your Slack channel. Enhance your work experience with OpenAI Bot today!
+features:
+  app_home:
+    home_tab_enabled: false
+    messages_tab_enabled: true
+    messages_tab_read_only_enabled: false
+  bot_user:
+    display_name: Slack Agent Test
+    always_online: true
+  assistant_view:
+    assistant_description: Talk to users and help with organizational information
+    suggested_prompts: []
+oauth_config:
+  scopes:
+    bot:
+      - app_mentions:read
+      - assistant:write
+      - im:history
+      - im:read
+      - im:write
+      - chat:write
+      - chat:write.customize
+      - links:write
+settings:
+  event_subscriptions:
+    bot_events:
+      - app_mention
+      - message.im
+  interactivity:
+    is_enabled: true
+  org_deploy_enabled: false
+  socket_mode_enabled: true
+  token_rotation_enabled: false

@@ -1,0 +1,19 @@
+{
+    "name": "read_emails",
+    "description": "Read emails from Gmail using Gmail API",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "query": {
+                "type": "string",
+                "description": "Gmail search query (e.g., 'in:inbox', 'from:someone@example.com')",
+                "default": "in:inbox"
+            },
+            "max_results": {
+                "type": "integer",
+                "description": "Maximum number of results to return",
+                "default": 10
+            }
+        }
+    }
+}

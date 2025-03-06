@@ -1,0 +1,21 @@
+{
+  "type": "function",
+  "function": {
+    "name": "delete_event",
+    "description": "Deletes an event from the user's Google Calendar",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "event_id": {
+          "type": "string",
+          "description": "ID of the event to delete"
+        },
+        "calendar_id": {
+          "type": "string",
+          "description": "Calendar ID where the event is stored (default: primary)"
+        }
+      },
+      "required": ["event_id"]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+    "type": "function",
+    "function": {
+        "name": "send_email",
+        "description": "Send an email to a specified recipient with custom subject and body.",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "receiver_email": {
+                    "type": "string",
+                    "description": "The email address of the recipient"
+                },
+                "subject": {
+                    "type": "string",
+                    "description": "The subject line of the email"
+                },
+                "body": {
+                    "type": "string",
+                    "description": "The content of the email"
+                }
+            },
+            "required": ["receiver_email", "subject", "body"]
+        }
+    }
+}

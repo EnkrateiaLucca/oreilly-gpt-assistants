@@ -1,0 +1,40 @@
+{
+    "name": "send_email",
+    "description": "Send an email using Gmail API",
+    "parameters": {
+        "type": "object",
+        "properties": {
+            "to": {
+                "type": "string",
+                "description": "Recipient email address"
+            },
+            "subject": {
+                "type": "string",
+                "description": "Email subject"
+            },
+            "body": {
+                "type": "string",
+                "description": "Email body content"
+            },
+            "attachments": {
+                "type": "array",
+                "description": "List of attachments",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "filename": {
+                            "type": "string",
+                            "description": "Name of the file"
+                        },
+                        "content": {
+                            "type": "string",
+                            "description": "Base64 encoded content of the file"
+                        }
+                    },
+                    "required": ["filename", "content"]
+                }
+            }
+        },
+        "required": ["to", "subject", "body"]
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "function",
+  "function": {
+    "name": "list_events",
+    "description": "Lists upcoming events from the user's Google Calendar",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "max_results": {
+          "type": "integer",
+          "description": "Maximum number of events to return (default: 10)"
+        },
+        "time_min": {
+          "type": "string",
+          "description": "Start time in ISO format (default: now)"
+        },
+        "time_max": {
+          "type": "string",
+          "description": "End time in ISO format (default: 7 days from now)"
+        },
+        "calendar_id": {
+          "type": "string",
+          "description": "Calendar ID to fetch events from (default: primary)"
+        }
+      },
+      "required": []
+    }
+  }
+}
