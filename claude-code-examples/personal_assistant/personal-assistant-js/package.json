@@ -1,0 +1,24 @@
+{
+  "name": "personal-assistant-js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openai",
+    "agents",
+    "assistant",
+    "ai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Personal assistant built with OpenAI Agents SDK",
+  "dependencies": {
+    "@openai/agents": "^0.0.11",
+    "zod": "^3.25.67"
+  }
+}
