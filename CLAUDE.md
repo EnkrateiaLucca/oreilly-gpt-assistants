@@ -139,11 +139,11 @@ SLACK_SIGNING_SECRET=your_slack_signing_secret
 - **No formal testing framework** - uses simple function-based tests with print statements
 - Tests are run directly: `python test_file.py`
 
-## Development Notes
+    ## Development Notes
 
-- Uses `uv` for faster dependency management
-- Jupyter notebooks are the primary development interface
-- Each notebook has corresponding documentation in `chat-assistant-files/`
-- Setup instructions provided for Gmail and Slack API integrations
-- No automated linting or CI/CD configured
-- Project structure optimized for educational progression
+    - Uses `uv` for faster dependency management
+    - Jupyter notebooks are the primary development interface
+    - Each notebook has corresponding documentation in `chat-assistant-files/`
+    - Setup instructions provided for Gmail and Slack API integrations
+    - No automated linting or CI/CD configured
+    - Project structure optimized for educational progression
