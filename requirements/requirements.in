@@ -1,5 +1,8 @@
 ipykernel
-openai
+ipywidgets
+openai>=2.6.0
 google-search-results
 pygithub
 beautifulsoup4
+matplotlib
+pandas
